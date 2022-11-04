@@ -13,5 +13,15 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
+    <build>
+        <plugins>
 
+            <plugin>
+                <groupId>net.kigawa</groupId>
+                <artifactId>keimvus-maven-plugin</artifactId>
+                <version>1.0</version>
+            </plugin>
+
+        </plugins>
+    </build>
 </project>
